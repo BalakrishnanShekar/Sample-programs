@@ -1,0 +1,39 @@
+body{
+    background: linear-gradient(to left,slateblue,darkblue);
+    font-family: Trebuchet MS;
+    text-align: center;
+}
+
+
+.divSec{
+    font-size: 20px;
+    font-family: times;
+    font-weight: bold;
+    background: linear-gradient(black,grey);
+    color: white;
+    border: solid black;
+    padding: 10px 10px 10px 10px;
+    width: 300px;
+    border-radius: 25px 25px 25px 25px;
+    margin:auto;
+}
+
+h1{
+    font-family: Trebuchet MS;
+    color: white;
+    padding-top: 30px;
+}
+
+button{
+    padding: 25px 25px 25px 25px;
+    background-color: azure;
+    margin: 25px;
+    font-family: Trebuchet MS;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 25px 25px 25px 25px;
+}
+
+button:hover{
+    transform: scale3d(0.5s);
+}

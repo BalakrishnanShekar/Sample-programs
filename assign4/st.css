@@ -1,0 +1,46 @@
+.d1{
+    background-color: blanchedalmond;
+    color: black;
+    font-style: italic;
+    font-size: small;
+    font-family: Trebuchet MS;
+    padding: 20px;
+    width: 200px;
+    margin: 20px;
+    border-radius: 25px;
+}
+
+h1{
+    font-family: serif;
+    font-weight: bold;
+}
+
+body{
+    background-image: linear-gradient(black,grey);
+    color: white;
+    font-family: Trebuchet MS;
+}
+
+img{
+    border-radius: 50px;
+    border: solid white 5px;
+}
+
+.s{
+    background-color: whitesmoke;
+    font-family: Trebuchet MS;
+    text-decoration: none;
+    color: blue;
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding: 10px 10px 10px 10px;
+    border-radius: 25px;
+    transition: transform 0.5s ease;
+}
+
+.s:hover{
+    color: whitesmoke;
+    background-color: blue;
+    transform: scale(1.05);
+}
