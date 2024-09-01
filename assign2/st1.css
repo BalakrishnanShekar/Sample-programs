@@ -11,10 +11,14 @@ nav{
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-
 }
 ul{
     list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+li:first-child{
+    margin-right: auto;
 }
 a{
     text-decoration: none;
